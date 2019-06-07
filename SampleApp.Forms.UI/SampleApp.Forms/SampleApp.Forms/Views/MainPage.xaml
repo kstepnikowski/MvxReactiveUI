@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<view:ContentPageBase
+    x:TypeArguments="viewModels:MainViewModel"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:SampleApp.Forms"
+    xmlns:view="clr-namespace:MvvmCross.ReactiveUI.Core.View;assembly=MvvmCross.ReactiveUI.Core"
+    xmlns:viewModels="clr-namespace:SampleApp.Core.ViewModels;assembly=SampleApp.Core"
+    x:Class="SampleApp.Forms.Views.MainPage">
+
+
+    <StackLayout>
+        <!-- Place new controls here -->
+        <Label Text="{Binding Username}"
+               HorizontalOptions="Center"
+               VerticalOptions="CenterAndExpand" />
+    </StackLayout>
+
+</view:ContentPageBase>
